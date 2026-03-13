@@ -16,6 +16,9 @@ A proposta é criar um ambiente containerizado que orquestre uma aplicação Jav
 - Inicializar o banco de dados automaticamente com tabelas e registros.
    #### Como Executar
 - Gere o JAR da aplicação com Maven ou Gradle:
+  ```
+  mvn clean package
+  ```
 mvn clean package
 - Suba os serviços com Docker Compose:
 docker-compose up -d
