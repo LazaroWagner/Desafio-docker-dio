@@ -14,24 +14,24 @@ A proposta é criar um ambiente containerizado que orquestre uma aplicação Jav
 - Criar imagens customizadas para aplicações Java.
 - Orquestrar múltiplos serviços (app + banco).
 - Inicializar o banco de dados automaticamente com tabelas e registros.
-   #### Como Executar
-  1 - Gere o JAR da aplicação com Maven ou Gradle:
+#### Como Executar
+1 - Gere o JAR da aplicação com Maven ou Gradle:
   ```
   Bash
   ---
   mvn clean package
   ```
- 2 - Suba os serviços com Docker Compose:
+2 - Suba os serviços com Docker Compose:
   ```
   Bash
   docker-compose up -d
   ```
- 3 - Acesse a aplicação em:
-```
-Bash
----
-http://localhost:8080
-```
+3 - Acesse a aplicação em:
+  ```
+  Bash
+  ---
+  http://localhost:8080
+  ```
 
 ### Banco de Dados
 - Host: localhost
